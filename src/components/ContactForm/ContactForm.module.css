@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  padding: 15px;
+  background-color: teal;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.input {
+  height: 30px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.button {
+  border: none;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 3px;
+  color: teal;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  scale: 1.05;
+}

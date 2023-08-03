@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 200px;
+
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button {
+  border: none;
+  background-color: teal;
+
+  height: 30px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  scale: 1.05;
+}

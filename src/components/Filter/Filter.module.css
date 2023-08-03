@@ -1,0 +1,18 @@
+.label {
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.input {
+  border: 5px solid teal;
+  border-radius: 5px;
+  height: 30px;
+}
