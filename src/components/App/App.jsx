@@ -19,7 +19,13 @@ export class App extends Component {
 
   componentDidMount() {
     const contactsLS = JSON.parse(localStorage.getItem('contacts'));
-    this.setState({ contacts: contactsLS });
+    if (contactsLS) {
+      try {
+        this.setState({ contacts: contactsLS });
+      } catch (error) {
+        console.error('Error parsing stored contacts:', error);
+      }
+    }
   }
 
   componentDidUpdate(_, prevState) {
